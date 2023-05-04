@@ -16,6 +16,11 @@ class Node(self, data):
             
             elif data > self.data:
                 #traverse right
+                
+                
+    #traverse tree and print nodes
+    def printTree(self):
+        
         
 
     
