@@ -14,7 +14,7 @@ class Node(self, data):
             if data < self.data:
                 #traverse left
             
-            if data > self.data:
+            elif data > self.data:
                 #traverse right
         
 
