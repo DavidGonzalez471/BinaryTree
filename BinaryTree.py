@@ -10,6 +10,12 @@ class Node(self, data):
     #building the function so if the item is less than the node it goes to the left, 
     # greater than goes to the right
     def insert(self, data):
+        if self.data:
+            if data < self.data:
+                #traverse left
+            
+            if data > self.data:
+                #traverse right
         
 
     
