@@ -20,5 +20,14 @@ class Node(self, data):
     
             elif data > self.data:
                 #traverse right
+                if not self.right:
+                     self.right = Node(data)
+                else:
+                     self.right.insert(data)
+    
+    #Printing out the tree.
+    #using inorder traversal to start
+    def printTree(self):
+         
                 
 
