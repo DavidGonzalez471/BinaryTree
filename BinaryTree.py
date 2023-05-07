@@ -27,6 +27,8 @@ class Node(self, data):
     
     #Printing out the tree.
     #using inorder traversal to start
+    #inorder traversal goes left then root then right
+    #inorder of least to greatest
     def printTree(self):
          
                 
