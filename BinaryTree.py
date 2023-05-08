@@ -30,6 +30,11 @@ class Node(self, data):
     #inorder traversal goes left then root then right
     #inorder of least to greatest
     def printTree(self):
-         
+        if self.left:
+            self.left.printTree()
+        print(self.data)
+        if self.right:
+             self.right.printTree()
+    
                 
 
