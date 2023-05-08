@@ -37,11 +37,15 @@ class Node:
         if self.right:
              self.right.printTree()
     
+    #Searching the tree for an item.
+    def search(self, data):
+         None
+    
 
 root = Node(12)
 root.insert(6)
 root.insert(15)
 root.printTree()
 
-                
+                 
 
