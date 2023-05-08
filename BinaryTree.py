@@ -1,10 +1,11 @@
 #Binary Tree Implementation
 
-class Node(self, data):
+class Node:
     
-    self.data = data
-    self.left = None
-    self.right = None
+    def __init__(self, data) -> None:       
+        self.data = data
+        self.left = None
+        self.right = None
     
     #function to insert item into binary tree.
     #building the function so if the item is less than the node it goes to the left, 
@@ -36,5 +37,8 @@ class Node(self, data):
         if self.right:
              self.right.printTree()
     
+
+    
+
                 
 
