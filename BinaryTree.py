@@ -38,7 +38,10 @@ class Node:
              self.right.printTree()
     
 
-    
+root = Node(12)
+root.insert(6)
+root.insert(15)
+root.printTree()
 
                 
 
